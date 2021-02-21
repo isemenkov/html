@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #222;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.5px;
+}
+
+p + p {
+  margin-top: 10px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1230px;
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 48px;
+  padding: 9px 29px;
+  font-family: inherit;
+  text-decoration: none;
+  color: #222;
+  transition: background 0.3s, color 0.3s;
+
+  &:hover {
+    color: #fff;
+    background-color: #222;
+    transition: background 0.3s, color 0.3s;
+  }
+}
+
+.title {
+  margin: 0;
+  padding: 0 0 18px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -1px;
+}

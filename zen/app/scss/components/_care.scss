@@ -1,0 +1,17 @@
+.care {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding-bottom: 84px;
+  }
+
+  &__content {
+    padding: 205px 130px 0 27px;
+    max-width: 50%;
+  }
+
+  &__img {
+    margin: 20px 32px 0 0;
+  }
+}

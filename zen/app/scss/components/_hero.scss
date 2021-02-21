@@ -1,0 +1,56 @@
+.hero {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+    padding: 40px 0 75px;
+  }
+
+  &__content {
+    padding: 150px 0 0 30px;
+    max-width: 420px;
+  }
+
+  &__pretitle {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 36px;
+    font-size: 16px;
+    line-height: 30px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 2px;
+      top: 0;
+      width: 29px;
+      height: 29px;
+      background-image: url("../images/play-ico.svg");
+    }
+  }
+
+  &__title {
+    margin-bottom: 5px;
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  &__download {
+    padding-top: 10px;
+  }
+
+  &__appstore {
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 100%;
+  }
+
+  &__googleplay {
+    display: inline-block;
+    height: 100%;
+  }
+
+  &__img {
+    margin-right: 30px;
+  }
+}

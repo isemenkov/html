@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  font-size: 16px;
+  line-height: 22px;
+
+  &__link {
+    font-family: inherit;
+    text-decoration: none;
+    color: #222;
+
+    &:hover {
+      border-bottom: 1px solid #222;
+    }
+
+    &--active {
+      border-bottom: 1px solid #222;
+    }
+  }
+}
