@@ -7,6 +7,6 @@ The layouts are taken from the telegram channel [https://t.me/figma2html](https:
 
 #### ZEN
 
-![Preview](/home/ixaker/code/html/zen/ZEN-preview.jpg)
+![Preview](https://github.com/isemenkov/html/zen/ZEN-preview.jpg)
 
-[Layout](https://t.me/figma2html/16) [Template](https://github.com/isemenkov/html/zen)
+[Layout](https://t.me/figma2html/16) [Template](https://github.com/isemenkov/html)
