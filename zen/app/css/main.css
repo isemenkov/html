@@ -1,0 +1,480 @@
+:root {
+  --appstore-background: #000;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #222;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.5px;
+}
+
+p + p {
+  margin-top: 10px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1230px;
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 48px;
+  padding: 9px 29px;
+  font-family: inherit;
+  text-decoration: none;
+  color: #222;
+  -webkit-transition: background 0.3s, color 0.3s;
+  -o-transition: background 0.3s, color 0.3s;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #222;
+  -webkit-transition: background 0.3s, color 0.3s;
+  -o-transition: background 0.3s, color 0.3s;
+  transition: background 0.3s, color 0.3s;
+}
+
+.pay-btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid #222;
+  border-radius: 6px;
+  padding: 12px 6px 10px 10px;
+  text-decoration: none;
+  -webkit-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s;
+}
+
+.pay-btn:hover {
+  background-color: #222;
+  -webkit-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s;
+}
+
+.title {
+  margin: 0;
+  padding: 0 0 18px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -1px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.menu__link {
+  font-family: inherit;
+  text-decoration: none;
+  color: #222;
+}
+
+.menu__link:hover {
+  border-bottom: 1px solid #222;
+}
+
+.menu__link--active {
+  border-bottom: 1px solid #222;
+}
+
+.header__wrapper {
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 13px 0 8px;
+}
+
+.header__logo {
+  margin-left: 30px;
+}
+
+.header__logo svg {
+  width: 38px;
+  height: 38px;
+}
+
+.header__mastercard-logo {
+  margin-left: 15px;
+}
+
+.header__mastercard-logo svg {
+  width: 57px;
+  height: 35px;
+}
+
+.account-menu {
+  margin-left: 35px;
+}
+
+.account-menu :not(:nth-child(1)) {
+  margin-left: 20px;
+}
+
+.main-menu {
+  margin-left: auto;
+}
+
+.main-menu :not(:nth-child(1)) {
+  margin-left: 30px;
+}
+
+.app {
+  margin: 0 30px 0 35px;
+}
+
+.hero__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 13px;
+  padding: 40px 0 75px;
+}
+
+.hero__content {
+  padding: 150px 0 0 30px;
+  max-width: 420px;
+}
+
+.hero__pretitle {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 36px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.hero__pretitle::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 0;
+  width: 29px;
+  height: 29px;
+  background-image: url("../images/play-ico.svg");
+}
+
+.hero__title {
+  margin-bottom: 5px;
+  font-size: 42px;
+  line-height: 48px;
+}
+
+.hero__download {
+  padding-top: 10px;
+}
+
+.hero__appstore {
+  display: inline-block;
+  margin-bottom: 10px;
+  height: 100%;
+}
+
+.hero__googleplay {
+  display: inline-block;
+  height: 100%;
+}
+
+.hero__img {
+  margin-right: 30px;
+}
+
+.post-item__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.post-item__content {
+  max-width: 50%;
+}
+
+.post-item__img {
+  max-width: 50%;
+}
+
+.warranty__inner {
+  padding-bottom: 100px;
+}
+
+.warranty__content {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  padding: 295px 50px 0 110px;
+}
+
+.warranty__img {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+  margin-left: 30px;
+}
+
+.care__inner {
+  margin-bottom: 100px;
+  padding-bottom: 84px;
+}
+
+.care__content {
+  padding: 205px 130px 0 27px;
+  max-width: 50%;
+}
+
+.care__img {
+  margin: 20px 32px 0 0;
+}
+
+.cashback__title {
+  padding-bottom: 0;
+}
+
+.cashback__content {
+  margin: 0 auto;
+  max-width: 550px;
+  text-align: center;
+}
+
+.cashback__more {
+  margin-top: 35px;
+}
+
+.partners__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 40px 30px;
+}
+
+.partners__item {
+  width: 100%;
+  max-width: 25%;
+  text-align: center;
+}
+
+.partners__item:nth-child(n+5) {
+  margin-top: 45px;
+}
+
+.shopping-mastercard__content {
+  padding: 195px 0 0 29px;
+  max-width: 475px;
+}
+
+.shopping-mastercard__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.shopping-mastercard__applepay {
+  margin-right: 15px;
+}
+
+.shopping-mastercard__applepay svg {
+  width: 67px;
+  height: 28px;
+  color: #222;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.shopping-mastercard__applepay:hover svg {
+  color: #fff;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.shopping-mastercard__googlepay {
+  padding: 13px 7px 0 0;
+}
+
+.shopping-mastercard__googlepay svg {
+  width: 79px;
+  height: 35px;
+  color: #5f6368;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.shopping-mastercard__googlepay:hover svg {
+  color: #fff;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.shopping-mastercard__img {
+  margin-right: 30px;
+}
+
+.shopping-nofees__content {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  padding: 152px 30px 0 114px;
+  max-width: 600px;
+}
+
+.shopping-nofees__img {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+  margin: 14px 0 0 30px;
+}
+
+.shopping-account__content {
+  padding: 172px 0 0 28px;
+  max-width: 500px;
+}
+
+.shopping-account__title {
+  max-width: 400px;
+}
+
+.shopping-account__img {
+  margin: 5px 28px 0 0;
+}
+
+.account-creation__content {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  padding: 113px 30px 0 54px;
+  max-width: 540px;
+}
+
+.account-creation__title {
+  max-width: 350px;
+}
+
+.account-creation__appstore svg {
+  width: 166px;
+  height: 48px;
+  color: #fff;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.account-creation__appstore:hover svg {
+  color: #000;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+  --appstore-background: #fff;
+}
+
+.account-creation__googleplay svg {
+  width: 166px;
+  height: 48px;
+  color: #fff;
+}
+
+.account-creation__img {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+  margin: 36px 0 0 30px;
+}
+
+/*# sourceMappingURL=main.css.map */

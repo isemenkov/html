@@ -80,6 +80,22 @@ button {
   }
 }
 
+.pay-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #222;
+  border-radius: 6px;
+  padding: 12px 6px 10px 10px;
+  text-decoration: none;
+  transition: background 0.3s;
+
+  &:hover {
+    background-color: #222;
+    transition: background 0.3s;
+  }
+}
+
 .title {
   margin: 0;
   padding: 0 0 18px;

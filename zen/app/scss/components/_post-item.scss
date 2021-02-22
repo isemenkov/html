@@ -1,0 +1,15 @@
+.post-item {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+  }
+
+  &__content {
+    max-width: 50%;
+  }
+
+  &__img {
+    max-width: 50%;
+  }
+}

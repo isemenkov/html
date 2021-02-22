@@ -1,0 +1,41 @@
+.account-creation {
+  &__content {
+    order: 2;
+    padding: 113px 30px 0 54px;
+    max-width: 540px;
+  }
+
+  &__title {
+    max-width: 350px;
+  }
+
+  &__appstore {
+    svg {
+      width: 166px;
+      height: 48px;
+      color: #fff;
+      transition: color 0.3s;
+    }
+
+    &:hover {
+      svg {
+        color: #000;
+        transition: color 0.3s;
+        --appstore-background: #fff;
+      }
+    }
+  }
+
+  &__googleplay {
+    svg {
+      width: 166px;
+      height: 48px;
+      color: #fff;
+    }
+  }
+
+  &__img {
+    order: 1;
+    margin: 36px 0 0 30px;
+  }
+}

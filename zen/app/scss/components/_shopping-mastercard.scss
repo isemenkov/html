@@ -1,0 +1,52 @@
+.shopping-mastercard {
+  &__content {
+    padding: 195px 0 0 29px;
+    max-width: 475px;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+  }
+
+  &__applepay {
+    margin-right: 15px;
+
+    svg {
+      width: 67px;
+      height: 28px;
+      color: #222;
+      transition: color 0.3s;
+    }
+
+    &:hover {
+      svg {
+        color: #fff;
+        transition: color 0.3s;
+      }
+    }
+  }
+
+  &__googlepay {
+    padding: 13px 7px 0 0;
+
+    svg {
+      width: 79px;
+      height: 35px;
+      color: #5f6368;
+      transition: color 0.3s;
+    }
+
+    &:hover {
+      svg {
+        color: #fff;
+        transition: color 0.3s;
+      }
+    }
+  }
+
+  &__img {
+    margin-right: 30px;
+  }
+}
