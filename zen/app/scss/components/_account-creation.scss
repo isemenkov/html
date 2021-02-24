@@ -9,29 +9,12 @@
     max-width: 350px;
   }
 
-  &__appstore {
-    svg {
-      width: 166px;
-      height: 48px;
-      color: #fff;
-      transition: color 0.3s;
-    }
-
-    &:hover {
-      svg {
-        color: #000;
-        transition: color 0.3s;
-        --appstore-background: #fff;
-      }
-    }
+  &__download {
+    margin-top: 25px;
   }
 
-  &__googleplay {
-    svg {
-      width: 166px;
-      height: 48px;
-      color: #fff;
-    }
+  &__appstore {
+    margin-right: 8px;
   }
 
   &__img {

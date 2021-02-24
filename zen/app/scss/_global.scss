@@ -71,12 +71,12 @@ button {
   font-family: inherit;
   text-decoration: none;
   color: #222;
-  transition: background 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 
   &:hover {
     color: #fff;
     background-color: #222;
-    transition: background 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
   }
 }
 
@@ -88,11 +88,44 @@ button {
   border-radius: 6px;
   padding: 12px 6px 10px 10px;
   text-decoration: none;
-  transition: background 0.3s;
+  transition: background-color 0.3s;
 
   &:hover {
     background-color: #222;
-    transition: background 0.3s;
+    transition: background-color 0.3s;
+  }
+}
+
+.appstore {
+  svg {
+    width: 166px;
+    height: 48px;
+    color: #fff;
+    transition: color 0.3s;
+  }
+
+  &:hover {
+    svg {
+      color: #000;
+      transition: color 0.3s;
+      --appstore-background: #fff;
+    }
+  }
+}
+
+.googleplay {
+  svg {
+    width: 166px;
+    height: 48px;
+    color: #fff;
+  }
+
+  &:hover {
+    svg {
+      color: #000;
+      transition: color 0.3s;
+      --googleplay-background: #fff;
+    }
   }
 }
 
