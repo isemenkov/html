@@ -6,11 +6,11 @@
   &__inner {
     display: flex;
     align-items: center;
-    padding: 13px 0 8px;
+    padding: 20px 0 12px;
   }
 
   &__logo {
-    margin-left: 30px;
+    color: #222;
 
     svg {
       width: 38px;
@@ -19,7 +19,7 @@
   }
 
   &__mastercard-logo {
-    margin-left: 15px;
+    margin-left: 19px;
 
     svg {
       width: 57px;

@@ -1,0 +1,58 @@
+.footer {
+  &__wrapper {
+    border-top: 1px solid #cbd6e2;
+  }
+
+  &__inner {
+    padding: 45px 0 65px;
+  }
+
+  &__menu-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &__menu {
+    padding: 19px 28px;
+    width: 100%;
+    max-width: 192px;
+  }
+
+  &__menu-title {
+    margin-bottom: 27px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  &__menu-item:not(:last-child) {
+    margin-bottom: 7px;
+  }
+
+  &__menu-link {
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.3s;
+
+    svg {
+      width: 40px;
+      height: 40px;
+    }
+
+    &:hover {
+      border-bottom: 1px solid #222;
+    }
+  }
+
+  &__menu-link--no-hover {
+    &:hover {
+      border-bottom: none;
+    }
+  }
+
+  &__logo {
+    display: block;
+    height: 58px;
+  }
+}

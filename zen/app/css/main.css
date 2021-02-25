@@ -35,6 +35,7 @@ a {
 ul,
 ol {
   list-style: none;
+  margin: 0;
   padding: 0;
 }
 
@@ -51,11 +52,10 @@ h6 {
 p {
   margin: 0;
   padding: 0;
-  letter-spacing: -0.5px;
 }
 
 p + p {
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 button {
@@ -74,7 +74,7 @@ button {
   display: inline-block;
   border: 1px solid #000;
   border-radius: 48px;
-  padding: 9px 29px;
+  padding: 9px 32px;
   font-family: inherit;
   text-decoration: none;
   color: #222;
@@ -103,7 +103,7 @@ button {
   justify-content: center;
   border: 2px solid #222;
   border-radius: 6px;
-  padding: 12px 6px 10px 10px;
+  padding: 14px 9px 12px 10px;
   text-decoration: none;
   -webkit-transition: background-color 0.3s;
   -o-transition: background-color 0.3s;
@@ -115,6 +115,10 @@ button {
   -webkit-transition: background-color 0.3s;
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
+}
+
+.appstore {
+  display: inline-block;
 }
 
 .appstore svg {
@@ -134,6 +138,10 @@ button {
   --appstore-background: #fff;
 }
 
+.googleplay {
+  display: inline-block;
+}
+
 .googleplay svg {
   width: 166px;
   height: 48px;
@@ -150,9 +158,9 @@ button {
 
 .title {
   margin: 0;
-  padding: 0 0 18px;
+  padding: 0 0 23px;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 38px;
   line-height: 44px;
   letter-spacing: -1px;
 }
@@ -191,11 +199,11 @@ button {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 13px 0 8px;
+  padding: 20px 0 12px;
 }
 
 .header__logo {
-  margin-left: 30px;
+  color: #222;
 }
 
 .header__logo svg {
@@ -204,7 +212,7 @@ button {
 }
 
 .header__mastercard-logo {
-  margin-left: 15px;
+  margin-left: 19px;
 }
 
 .header__mastercard-logo svg {
@@ -213,11 +221,11 @@ button {
 }
 
 .account-menu {
-  margin-left: 35px;
+  margin-left: 40px;
 }
 
 .account-menu :not(:nth-child(1)) {
-  margin-left: 20px;
+  margin-left: 24px;
 }
 
 .main-menu {
@@ -225,11 +233,11 @@ button {
 }
 
 .main-menu :not(:nth-child(1)) {
-  margin-left: 30px;
+  margin-left: 33px;
 }
 
 .app {
-  margin: 0 30px 0 35px;
+  margin: -7px 0 0 42px;
 }
 
 .hero__inner {
@@ -244,14 +252,14 @@ button {
 }
 
 .hero__content {
-  padding: 150px 0 0 30px;
+  padding: 162px 0 0 2px;
   max-width: 420px;
 }
 
 .hero__pretitle {
   position: relative;
-  margin-bottom: 30px;
-  padding-left: 36px;
+  margin-bottom: 33px;
+  padding-left: 38px;
   font-size: 16px;
   line-height: 30px;
 }
@@ -267,28 +275,24 @@ button {
 }
 
 .hero__title {
-  margin-bottom: 5px;
-  font-size: 42px;
-  line-height: 48px;
+  margin-bottom: 3px;
+  font-size: 43px;
+  line-height: 49px;
 }
 
 .hero__download {
-  padding-top: 10px;
+  padding-top: 13px;
 }
 
 .hero__appstore {
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   height: 100%;
 }
 
 .hero__googleplay {
   display: inline-block;
   height: 100%;
-}
-
-.hero__img {
-  margin-right: 30px;
 }
 
 .post-item__inner {
@@ -317,14 +321,13 @@ button {
   -webkit-box-ordinal-group: 3;
   -ms-flex-order: 2;
   order: 2;
-  padding: 295px 50px 0 110px;
+  padding: 313px 50px 0 120px;
 }
 
 .warranty__img {
   -webkit-box-ordinal-group: 2;
   -ms-flex-order: 1;
   order: 1;
-  margin-left: 30px;
 }
 
 .care__inner {
@@ -333,26 +336,26 @@ button {
 }
 
 .care__content {
-  padding: 205px 130px 0 27px;
+  padding: 221px 130px 0 0;
   max-width: 50%;
 }
 
 .care__img {
-  margin: 20px 32px 0 0;
+  margin-top: 25px;
 }
 
 .cashback__title {
-  padding-bottom: 0;
+  padding: 14px 0 2px;
 }
 
 .cashback__content {
   margin: 0 auto;
-  max-width: 550px;
+  max-width: 580px;
   text-align: center;
 }
 
 .cashback__more {
-  margin-top: 35px;
+  margin-top: 46px;
 }
 
 .partners__list {
@@ -367,21 +370,29 @@ button {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 40px 30px;
+  padding: 58px 20px;
 }
 
 .partners__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 100%;
   max-width: 25%;
-  text-align: center;
 }
 
 .partners__item:nth-child(n+5) {
-  margin-top: 45px;
+  margin-top: 64px;
 }
 
 .shopping-mastercard__content {
-  padding: 195px 0 0 29px;
+  padding-top: 219px;
   max-width: 475px;
 }
 
@@ -392,11 +403,11 @@ button {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 22px;
+  margin-top: 28px;
 }
 
 .shopping-mastercard__applepay {
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 .shopping-mastercard__applepay svg {
@@ -416,7 +427,7 @@ button {
 }
 
 .shopping-mastercard__googlepay {
-  padding: 13px 7px 0 0;
+  padding: 17px 5px 2px 3px;
 }
 
 .shopping-mastercard__googlepay svg {
@@ -436,14 +447,14 @@ button {
 }
 
 .shopping-mastercard__img {
-  margin-right: 30px;
+  margin-top: 20px;
 }
 
 .shopping-nofees__content {
   -webkit-box-ordinal-group: 3;
   -ms-flex-order: 2;
   order: 2;
-  padding: 152px 30px 0 114px;
+  padding: 166px 0 0 120px;
   max-width: 600px;
 }
 
@@ -451,11 +462,11 @@ button {
   -webkit-box-ordinal-group: 2;
   -ms-flex-order: 1;
   order: 1;
-  margin: 14px 0 0 30px;
+  margin-top: 21px;
 }
 
 .shopping-account__content {
-  padding: 172px 0 0 28px;
+  padding-top: 187px;
   max-width: 500px;
 }
 
@@ -464,14 +475,18 @@ button {
 }
 
 .shopping-account__img {
-  margin: 5px 28px 0 0;
+  margin-top: 9px;
+}
+
+.account-creation__inner {
+  padding-bottom: 112px;
 }
 
 .account-creation__content {
   -webkit-box-ordinal-group: 3;
   -ms-flex-order: 2;
   order: 2;
-  padding: 113px 30px 0 54px;
+  padding: 124px 5px 0 58px;
   max-width: 540px;
 }
 
@@ -480,18 +495,79 @@ button {
 }
 
 .account-creation__download {
-  margin-top: 25px;
+  margin-top: 34px;
 }
 
 .account-creation__appstore {
-  margin-right: 8px;
+  margin-right: 21px;
 }
 
 .account-creation__img {
   -webkit-box-ordinal-group: 2;
   -ms-flex-order: 1;
   order: 1;
-  margin: 36px 0 0 30px;
+  margin-top: 41px;
+}
+
+.footer__wrapper {
+  border-top: 1px solid #cbd6e2;
+}
+
+.footer__inner {
+  padding: 45px 0 65px;
+}
+
+.footer__menu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.footer__menu {
+  padding: 19px 28px;
+  width: 100%;
+  max-width: 192px;
+}
+
+.footer__menu-title {
+  margin-bottom: 27px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.footer__menu-item:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.footer__menu-link {
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: border-color 0.3s;
+  -o-transition: border-color 0.3s;
+  transition: border-color 0.3s;
+}
+
+.footer__menu-link svg {
+  width: 40px;
+  height: 40px;
+}
+
+.footer__menu-link:hover {
+  border-bottom: 1px solid #222;
+}
+
+.footer__menu-link--no-hover:hover {
+  border-bottom: none;
+}
+
+.footer__logo {
+  display: block;
+  height: 58px;
 }
 
 /*# sourceMappingURL=main.css.map */

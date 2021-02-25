@@ -1,7 +1,11 @@
 .account-creation {
+  &__inner {
+    padding-bottom: 112px;
+  }
+
   &__content {
     order: 2;
-    padding: 113px 30px 0 54px;
+    padding: 124px 5px 0 58px;
     max-width: 540px;
   }
 
@@ -10,15 +14,15 @@
   }
 
   &__download {
-    margin-top: 25px;
+    margin-top: 34px;
   }
 
   &__appstore {
-    margin-right: 8px;
+    margin-right: 21px;
   }
 
   &__img {
     order: 1;
-    margin: 36px 0 0 30px;
+    margin-top: 41px;
   }
 }

@@ -1,17 +1,17 @@
 .shopping-mastercard {
   &__content {
-    padding: 195px 0 0 29px;
+    padding-top: 219px;
     max-width: 475px;
   }
 
   &__actions {
     display: flex;
     align-items: center;
-    margin-top: 22px;
+    margin-top: 28px;
   }
 
   &__applepay {
-    margin-right: 15px;
+    margin-right: 20px;
 
     svg {
       width: 67px;
@@ -29,7 +29,7 @@
   }
 
   &__googlepay {
-    padding: 13px 7px 0 0;
+    padding: 17px 5px 2px 3px;
 
     svg {
       width: 79px;
@@ -47,6 +47,6 @@
   }
 
   &__img {
-    margin-right: 30px;
+    margin-top: 20px;
   }
 }
