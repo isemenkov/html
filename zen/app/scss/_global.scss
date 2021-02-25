@@ -98,6 +98,7 @@ button {
 
 .appstore {
   display: inline-block;
+  transition: color 0.3s;
 
   svg {
     width: 166px;
@@ -117,6 +118,7 @@ button {
 
 .googleplay {
   display: inline-block;
+  transition: color 0.3s;
 
   svg {
     width: 166px;

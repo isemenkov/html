@@ -10,12 +10,12 @@
   &__menu-container {
     display: flex;
     justify-content: flex-start;
+    padding: 25px 0 50px;
   }
 
   &__menu {
-    padding: 19px 28px;
     width: 100%;
-    max-width: 192px;
+    max-width: 17%;
   }
 
   &__menu-title {
@@ -25,7 +25,7 @@
   }
 
   &__menu-item:not(:last-child) {
-    margin-bottom: 7px;
+    margin-bottom: 9px;
   }
 
   &__menu-link {
@@ -53,6 +53,29 @@
 
   &__logo {
     display: block;
-    height: 58px;
+    margin-left: -33px;
+
+    svg {
+      height: 24px;
+    }
+  }
+
+  &__copyright {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+    p {
+      max-width: 840px;
+      font-size: 12px;
+      line-height: 16px;
+      color: #aaa;
+    }
+
+    svg {
+      margin-top: -10px;
+      width: 176px;
+      height: 59px;
+    }
   }
 }

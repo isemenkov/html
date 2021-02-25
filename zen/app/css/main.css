@@ -119,6 +119,9 @@ button {
 
 .appstore {
   display: inline-block;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .appstore svg {
@@ -140,6 +143,9 @@ button {
 
 .googleplay {
   display: inline-block;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .googleplay svg {
@@ -479,7 +485,7 @@ button {
 }
 
 .account-creation__inner {
-  padding-bottom: 112px;
+  padding-bottom: 117px;
 }
 
 .account-creation__content {
@@ -524,12 +530,12 @@ button {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  padding: 25px 0 50px;
 }
 
 .footer__menu {
-  padding: 19px 28px;
   width: 100%;
-  max-width: 192px;
+  max-width: 17%;
 }
 
 .footer__menu-title {
@@ -539,7 +545,7 @@ button {
 }
 
 .footer__menu-item:not(:last-child) {
-  margin-bottom: 7px;
+  margin-bottom: 9px;
 }
 
 .footer__menu-link {
@@ -567,7 +573,34 @@ button {
 
 .footer__logo {
   display: block;
-  height: 58px;
+  margin-left: -33px;
+}
+
+.footer__logo svg {
+  height: 24px;
+}
+
+.footer__copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.footer__copyright p {
+  max-width: 840px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #aaa;
+}
+
+.footer__copyright svg {
+  margin-top: -10px;
+  width: 176px;
+  height: 59px;
 }
 
 /*# sourceMappingURL=main.css.map */
