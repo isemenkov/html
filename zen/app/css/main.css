@@ -301,6 +301,14 @@ button {
   height: 100%;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero__img-object {
+    width: auto;
+    height: auto;
+    max-width: 90%;
+  }
+}
+
 .post-item__inner {
   display: -webkit-box;
   display: -ms-flexbox;

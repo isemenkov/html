@@ -49,4 +49,12 @@
     display: inline-block;
     height: 100%;
   }
+
+  &__img-object {
+    @include for-landscape-tablet-and-desktop {
+      width: auto;
+      height: auto;
+      max-width: 90%;
+    }
+  }
 }
